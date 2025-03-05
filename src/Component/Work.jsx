@@ -105,15 +105,6 @@ const Work = () => {
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
             <div className='container mb-5'>
                 <div className='row mt-5'>
                     <div className='col-lg-8'>

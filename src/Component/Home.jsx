@@ -371,42 +371,32 @@ const Home = () => {
 
       <hr className='mb-5' />
 
-      <div className='container' id='ourProduct'>
-        <div className="row">
-          <div className="col-lg-6">
-            <p className='dot'> . </p>
-            <small className='open '>OUR DISTINCTIVE PRODUCTS</small>
-            <h1 className=' next'>Discover our recent <br /> groundbreaking solutions </h1>
+    <div className="container" id="ourProduct">
+  <div className="row align-items-center">
+    <div className="col-lg-6 col-md-12 text-center text-lg-start">
+      <p className="dot">.</p>
+      <small className="open d-block mb-2">OUR DISTINCTIVE PRODUCTS</small>
+      <h1 className="next mb-4">
+        Discover our recent <br /> groundbreaking solutions
+      </h1>
 
-            <div className='d-flex p-2 w-100  my-4' id="hoverr" >
-              <img src={white} alt='white' className='mr-3' />
-              <div className='ml-3'>
-                <p className='font-weight-bold'>Test</p>
-                <p>A test to see how all products will appear on her</p>
-              </div>
-            </div>
-            <div className='d-flex p-2 w-100  my-4' id="hoverr" >
-              <img src={white} alt='white' className='mr-3' />
-              <div className='ml-3'>
-                <p className='font-weight-bold'>Test</p>
-                <p>A test to see how all products will appear on her</p>
-              </div>
-            </div>
-
-            <div className='d-flex p-2 w-100  my-4' id="hoverr" >
-              <img src={white} alt='white' className='mr-3' />
-              <div className='ml-3'>
-                <p className='font-weight-bold'>Test</p>
-                <p>A test to see how all products will appear on her</p>
-              </div>
-            </div>
-
-          </div>
-          <div className="col-lg-6">
-            <img src={oo} alt='oo' className='w-100 mt-5' />
+      {Array(3).fill().map((_, index) => (
+        <div key={index} className="d-flex p-2 w-100 my-4 align-items-center" id="hoverr">
+          <img src={white} alt="white" className="mr-3 img-fluid" style={{ maxWidth: "80px" }} />
+          <div className="ml-3 text-start">
+            <p className="font-weight-bold mb-1">Test</p>
+            <p className="mb-0">A test to see how all products will appear here</p>
           </div>
         </div>
-      </div>
+      ))}
+    </div>
+
+    <div className="col-lg-6 col-md-12 mt-4 mt-lg-0">
+      <img src={oo} alt="oo" className="w-100 img-fluid" />
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -476,9 +466,9 @@ const Home = () => {
 
 
       {/* jobs opportunity */}
-      <div className='' id='discover'>
+      <div className='w-100 px-2' id='discover'>
         <div className='container'>
-          <div className='bg-white rounded px-5 py-4'>
+          <div className='bg-white rounded px-2 py-4'>
 
             <div className='text-center'>
               <p className='dot'> . </p>
