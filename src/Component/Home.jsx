@@ -206,7 +206,7 @@ const Home = () => {
               <div className=''>
                 <small className='dot'> . </small><br />
                 <small className='open '>ABOUT THE AGENCY</small>
-                <h1 className=' next'>We’re top notch award winning software solution agency</h1>
+                <h1 className=' next fs-5-sm fs-1-md'>We’re top notch award winning software solution agency</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Facilisi non faucibus mattis nibh. Sed at vehicula urna et pretium neque aliquam. Sed eu cursus posuere purus diam scelerisque in. Pellentesque dolor adipiscing etiam ultricies in. Sed sed pretium volutpat molestie. </p>
                 <p>Velit odio mi non lectus urna et. Mattis morbi est cras sodales ultrices nibh ut sodales. A velit enim a neque malesuada ultricies vitae aliquam tristique. Enim sagittis nulla netus velit magna elementum mattis dictum. Lectus.</p>
 
@@ -304,13 +304,13 @@ const Home = () => {
       <hr className='mb-5' />
       <div className="container">
 
-        <div className='d-flex justify-content-between'>
+      <div className='d-flex justify-content-between align-items-center flex-column flex-md-row'>
           <div>
             <p className='dot'> . </p>
             <small className='open '>OUR WORK SHOWCASE</small>
             <h1 className=' next'>Explore our best recent <br /> completed projects </h1>
           </div>
-          <div style={{ marginTop: '7em' }}>
+          <div  className="mt-5 mt-md-1 mt-sm-0">
             <button className='btn btn py-3 px-4 font-weight-bold border-0' id='viewWork'> View All Work</button>
 
             {/* <button className='p-3 font-weight-bold border-0' id='viewWork' >View All Work</button> */}
@@ -473,14 +473,14 @@ const Home = () => {
             <div className='text-center'>
               <p className='dot'> . </p>
               <small className='open '>OUR OPEN JOBS</small>
-              <h1 className=' next'>Discover your next career <br />  move</h1>
+              <h1 className=' next fs-sm-4'>Discover your next career <br />  move</h1>
             </div>
 
             <div className=' border p-4 mt-5 bg-body rounded' id='discoverShadow'>
               <div className="row  ">
                 <div className="col-lg-6">
-                  <p className='font-weight-bold'> STUDENT JOBS <span style={{ color: 'grey' }}>Intern</span></p>
-                  <h4 className='font-weight-bold'>Assistant Field Marketing Agent </h4>
+                  <p className='font-weight-bold fs-sm-4'> STUDENT JOBS <span style={{ color: 'grey' }}>Intern</span></p>
+                  <h4 className='font-weight-bold h5'>Assistant Field Marketing Agent </h4>
                   <small style={{ color: 'grey' }}> <i className='text-warning h5 mr-2 fa-solid fa-location-dot'></i>Lagos, NG </small>
                 </div>
 
@@ -560,7 +560,7 @@ const Home = () => {
           >
           </div>
         </div><br /><br /><br /><br /><br /><br /><br />
-        <p className='text-center h1 display-5 mb-3 font-weight-bold'>Have any projects in mind? <br />Get in touch with us!</p>
+        <p className='text-center h3 display-5 mb-3 font-weight-bold'>Have any projects in mind? <br />Get in touch with us!</p>
       </div>
 
 

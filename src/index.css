@@ -135,6 +135,7 @@
 
 .next {
   font-weight: bolder;
+  font-size: 44px;
 }
 
 .dot {
@@ -534,7 +535,9 @@
   }
 
   #two {
-    text-decoration: underline
+    text-decoration: underline;
+    font-size: 14px;
+    
   }
 
   #three {
@@ -582,6 +585,12 @@
   margin-left: 5px;
 }
 
+
+@media (max-width: 600px) {
+  .next{
+    font-size: 24px;
+  }
+}
 .span:hover {
 
   .mor {
